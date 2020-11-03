@@ -27,7 +27,6 @@
         absolute
         color="white"
         elevate-on-scroll
-        scroll-target="#scrolling-techniques-7"
       >
         <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
         <v-toolbar-title v-text="title" />
@@ -40,7 +39,7 @@
       > -->
       <v-main>
         <!-- <v-container style="max-height: 1500px;"> -->
-        <v-parallax src="https://cdn.vuetifyjs.com/images/parallax/material.jpg"></v-parallax>
+        <v-parallax src="https://cdn.vuetifyjs.com/images/parallax/material.jpg" />
         <nuxt />
         <!-- </v-container> -->
       </v-main>
