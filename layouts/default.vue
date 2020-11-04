@@ -68,10 +68,10 @@ export default {
         {
           icon: 'mdi-chart-bubble',
           title: 'Member',
-          to: '/inspire'
+          to: '/member'
         }
       ],
-      title: 'Vuetify.js'
+      title: 'Increment'
     }
   }
 }
